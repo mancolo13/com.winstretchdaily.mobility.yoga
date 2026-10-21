@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.accessibility_new_outlined),
-          selectedIcon: const Icon(Icons.accessibility_new, color: AppTheme.primaryColor),
-          label: 'Routines',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.self_improvement_outlined),
-          selectedIcon: const Icon(Icons.self_improvement, color: AppTheme.primaryColor),
-          label: 'Psoas & Back',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.timer_outlined),
-          selectedIcon: const Icon(Icons.timer, color: AppTheme.primaryColor),
-          label: 'Timer',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.whatshot_outlined),
-          selectedIcon: const Icon(Icons.whatshot, color: AppTheme.primaryColor),
-          label: 'Streaks',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.dashboard_outlined),
+            selectedIcon: const Icon(Icons.dashboard, color: AppTheme.primaryColor),
+            label: 'Stretch',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.list_alt_outlined),
+            selectedIcon: const Icon(Icons.list_alt, color: AppTheme.primaryColor),
+            label: 'Routines',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.analytics_outlined),
+            selectedIcon: const Icon(Icons.analytics, color: AppTheme.primaryColor),
+            label: 'Poses',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings, color: AppTheme.primaryColor),
+            label: 'Breathing',
+          ),
         ],
       ),
     );
